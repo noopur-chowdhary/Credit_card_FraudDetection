@@ -27,3 +27,9 @@ Since the dataset is highly imbalanced, with fraudulent transactions representin
 **3) Preprocessing**
 
 Features are grouped by type and cardinality for efficient preprocessing. High-cardinality identifier columns (card_id, user_id, merchant_id) are dropped to avoid excessive dimensionality. Low-cardinality categorical features are one-hot encoded, numerical features are standardized, and boolean indicators are passed through unchanged. All transformations are applied using a ColumnTransformer to ensure a consistent and reproducible preprocessing pipeline.
+
+**4) Model Implementation and Evaluation**
+
+Three machine learning models—Logistic Regression, Random Forest, and XGBoost—are implemented using separate preprocessing–model pipelines to ensure consistent and fair comparison. For each model, a classification report is generated, including accuracy, precision, recall, and ROC–AUC metrics.
+
+Each evaluation metric provides a distinct perspective on model performance: accuracy measures overall correctness, precision reflects the reliability of fraud predictions, recall assesses the model’s ability to detect fraudulent transactions, and ROC–AUC evaluates class separability across decision thresholds. Model performance is further analyzed using visualizations such as confusion matrices and bar charts, enabling intuitive comparison and interpretability.
