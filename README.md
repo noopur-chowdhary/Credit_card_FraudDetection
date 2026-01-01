@@ -1,3 +1,5 @@
+![Credit Card Fraud Detection](images/credit_card_fraud.png)
+
 # Credit_card_FraudDetection
 In an increasingly digital global economy, credit card fraud has evolved from simple theft into a multi-billion dollar criminal enterprise.Traditional security systems rely on static rules—pre-defined "if/then" scenarios that can only catch known threats. However, modern fraudsters are adaptive, constantly shifting their tactics to bypass these rigid boundaries.
 **Power of machine learning in detecting fraud**
