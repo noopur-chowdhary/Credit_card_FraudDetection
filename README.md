@@ -36,3 +36,4 @@ Features are grouped by type and cardinality for efficient preprocessing. High-c
 Three machine learning models—Logistic Regression, Random Forest, and XGBoost—are implemented using separate preprocessing–model pipelines to ensure consistent and fair comparison. For each model, a classification report is generated, including accuracy, precision, recall, and ROC–AUC metrics.
 
 Each evaluation metric provides a distinct perspective on model performance: accuracy measures overall correctness, precision reflects the reliability of fraud predictions, recall assesses the model’s ability to detect fraudulent transactions, and ROC–AUC evaluates class separability across decision thresholds. Model performance is further analyzed using visualizations such as confusion matrices and bar charts, enabling intuitive comparison and interpretability.
+After comparing all the metrics , XGBoost comes out to be the best choice.
